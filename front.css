@@ -1,0 +1,215 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color:white;
+    border: 2px solid rgb(97, 44, 44);
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    margin: 20px 5px 20px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(52, 25, 25);
+    font-size: 15px;
+    padding: 5px;
+}
+nav ul li a:hover{
+    background-color:white;
+    color: rgb(119, 56, 56);
+    border-radius: 2px;
+    box-shadow: 5px 5px  5px rgb(111, 44, 44);
+}
+.submenu{
+    display: none;
+}
+#ab:hover .submenu{
+    display: block;
+    position: absolute;
+    color: white;
+}
+#ab:hover .submenu ul {
+    display: block;
+    background-color:rgb(146, 76, 76);
+    margin-left: 55px;
+    color: white;
+}
+#ab:hover .submenu ul li {
+    border-bottom: 1px dotted white;
+}
+
+#ab:hover .submenu ul li:last-child{
+    border: none;
+}
+nav #sb{
+    margin: 25px 0px 0px 15vw;
+    font-size:x-large;
+}
+nav #mr ul{
+    margin: 10px 0px 0px 15vw;
+    font-size:15px ;
+}
+nav #h li{
+    background-color:rgb(203, 105, 55);
+    color:black; 
+    border-radius: 350px;
+    margin: 27px 0px 0px 15px;
+    font-size:25wv;
+}
+nav #h li :hover{
+    background-color: rgb(113, 33, 33);
+    color: white;
+    border-radius: 350px;
+}
+.imgslider{
+    width: 100%;
+    height: 90vh;
+    margin-top: 5px;
+    background-image: url("images7.jpeg");
+    animation: changeimg 20s linear infinite;
+}   
+@keyframes changeimg {
+    0%{
+        background-image: url("image7.jpeg");
+    }
+    25%{
+        background-image: url("images2.jpg");
+    }
+    50%{
+        background-image: url("images3.jpg");
+    }
+    75%{
+        background-image: url("image4.jpg");
+        
+    }
+    100%{
+        background-image: url("img1.jpg");
+        background-size: cover;
+    }
+}
+.container{
+    display:flex;
+}
+button{
+    margin-left: 20%;
+    font-size:25px;
+    background-color: rgb(203, 105, 55);
+}
+button:hover{
+    background-color: rgb(203, 105, 55);
+    color: white;
+}
+.img{
+    display: flex;
+    margin-right: 75%;
+}
+.img a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.button {
+    margin-left:350px;
+    font-size: 55%;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button :hover{
+    background-color: rgb(203, 105, 55);
+    color: white;
+}
+#submenu {
+    display: flex;
+    z-index: -1;
+}
+#submenu img{
+    width: 300px;
+    height: 450px;
+}
+#submenu img:hover{
+    background-color:rgb(119, 56, 56);
+    color: rgb(119, 56, 56);
+    border-radius: 20px;
+    box-shadow: 10px 10px  10px aqua;
+}
+.text pre{
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'Times New Roman', Times, serif;
+    color:green;
+}
+.text2 pre{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 146, 102);
+}
+.services{
+    display:flex;
+}
+.services1 pre{
+    margin-left:10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 146, 102);
+}
+.services2 pre{
+    margin: 0px 10px 0px 25px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(90, 146, 102);
+}
+.client{
+    font-size: 5vw;
+    color: black;
+}
+.client1{
+    display: flex;
+}
+.client1 pre{
+    font-size:xx-large;
+    color: green;
+    margin: 5% 25% 0% 5%;
+}
+footer{
+    width: ;
+    background-color:white;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 25px black;
+}
+footer h3 {
+    margin: 20px 0px 10px 0px;
+    font-size: 30px;
+    
+}
+footer p{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+footer p i {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+footer a i{
+    margin: 20px;
+    padding: 10px;
+}
+footer a i:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 360px;
+}
